@@ -16,4 +16,8 @@ public class FirstController {
         model.addAttribute("username","Seungyeon");
         return "goodbye";
     }
+    @GetMapping("/input")
+    public String inputForm(){
+        return "input";
+    }
 }
